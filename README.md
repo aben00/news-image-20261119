@@ -9,47 +9,62 @@ news of Thursday 19 November 2026, drawn programmatically by `draw.py`
 and written to `/output/entry.png` by `main.ts` (Node 22, standard library
 only).
 
-Bounty: https://make.fun/bounty/news-image-20261119
+Bounty: https://make.fun/bounty/news-image-20261119?ref=bh1grvtt
 
 ## The image
 
 A newspaper-style front page, "THE WORLD TODAY — THURSDAY 19 NOVEMBER
-2026", with **20 verified stories**: three illustrated lead tiles, a
-four-story "ALSO TODAY" strip, and a "THE DAY IN BRIEF" digest of 13
-further one-line headlines across regions and fields, so the day reads
-from the image alone.
+2026", with **35 verified stories across 6 continents**: four illustrated
+lead tiles, a **world map with 15 numbered pins** marking where the day
+happened, eight further illustrated tiles, and a "THE DAY IN BRIEF"
+digest of 23 more one-line headlines, so the day reads from the image
+alone.
 
-Illustrated stories:
+Illustrated stories (12 illustrations in total):
 
-1. **GTA VI is here at last** (Games) — Rockstar's epic rolls out at
-   midnight around the world, 13 years after GTA V, scoring 99 on
-   Metacritic.
-2. **Anthropic's $81bn debut** (Markets) — the Claude-maker prices its
-   IPO at $83 a share, the biggest listing ever, and starts trading on
-   Nasdaq today as ANT.
-3. **Van Gogh sells for $190.4m** (Art) — Chestnut Trees in Blossom sets
-   an artist record at Sotheby's after a Nazi-era ownership row is
-   settled.
+1. **GTA VI is here at last** (Games) — rolls out at midnight worldwide,
+   99 on Metacritic, 6m watching at once.
+2. **Anthropic's $81bn debut** (Markets) — a record $81bn raise at a
+   $1.5trn valuation; trading starts today as ANT on Nasdaq.
+3. **Myanmar guilty of genocide** (Law) — the ICJ rules the military
+   committed genocide against the Rohingya, a first for any state.
+4. **Trump, Xi and Putin meet** (Summit) — the first three-way meeting
+   in Shenzhen agrees stable energy flows, with no word on Ukraine.
+5. **Gulf strikes** — Iran fires on a US base in Kuwait; the US hits
+   Qeshm Island.
+6. **Gaza tank raid** — Israel crosses the ceasefire line; some 6,000
+   people flee.
+7. **Cyclone Akvan** — 70,000+ moved to safety in Odisha as the storm
+   nears.
+8. **Mongolia quits** — President Khurelsukh resigns over a railway
+   scandal.
+9. **Seoul court** — the court voids ex-PM Han's 15-year term; martial
+   law ruled unconstitutional.
+10. **Serbia turns** — student-led Cupic elected speaker, ending the
+    ruling party's 14-year grip.
+11. **Somalia expels** — the UAE envoy is given 72 hours to leave in a
+    sovereignty row.
+12. **Van Gogh $190.4m** — Chestnut Trees in Blossom sets an artist
+    record at Sotheby's.
 
-Also today: the ICJ verdict due on Myanmar and the Rohingya; Trump, Xi
-and Putin meeting for the first time at APEC in Shenzhen; the Crimean
-Bridge hit a third time in a week; and Cyclone Akvan bearing down on
-India's east coast.
+The map pins: Washington, Port-au-Prince, London, The Hague, Berlin,
+Gaza, Mogadishu, Badme, Hormuz, Shenzhen, Seoul, Ulaanbaatar, Jakarta,
+Odisha and Wellington.
 
-The brief adds 13 more: McDonald's UK workers' cases going ahead,
-NASA's Voyager 1 briefing, a US panel urging action over Panama-flagged
-ship detentions, a Senate probe call into US tech outages, a Pune oil
-seizure, Census 2027 changes, the BJP's Mathura temple turn, Kochi's
-defunct taps, Hyderabad's rapid transit plan, slowing global profit
-growth, a Fitch warning on AI debt, US outage stockpiling, and Taiwan's
-DPP local-election aims.
+The brief adds 23 more: the US Senate's 51-48 Iran war vote, Berlin's
+Ukraine backing, the Iraq–Kataib Hezbollah deal, the UK's Apple
+encryption order, the ICE contempt ruling, the Guyana–Essequibo alarm,
+the Haiti assassination verdict, Korea's 550,000-strong college exam,
+Nvidia's board rejecting Huang's comeback, Musk on midterm spending,
+COP31 dropping fossil-fuel language, Indonesia's El Nino wildfires, two
+US carriers leaving the Gulf, the Ethiopia–Eritrea border build-up,
+Dhaka's garment protests, the Knesset speaker vote, the Houthi missile
+at Riyadh, UK–EU post-Brexit talks, Brazil's isolated-group images, Air
+NZ's compensation charges, Nicholls' 113* in Wellington, Japan–India
+military ties, and the Denmark–US–Greenland Arctic deal.
 
-Sources: Reuters, AP, BBC, The New York Times, The Hindu, SCMP, NASA,
-IMD — all events of, or first reported on, 19 November 2026. Stories
-that happened on 18 November in their local time zone (the Jeffries
-Speaker nomination, the Gaza ground operation, the Peltola Senate call,
-the Pew religion projections, the EU's €45bn Ukraine loan) were checked
-and deliberately left out.
+Sources: Reuters, AP, BBC, The Guardian, SCMP, IMD, ANI — all events
+of, or first reported on, 19 November 2026.
 
 ## Files
 
@@ -59,7 +74,7 @@ and deliberately left out.
   `entry.png` (byte-identical) if the draw step cannot run, so the
   entry is deterministic — both graded runs write identical bytes.
 - `draw.py` — the generator that draws `entry.png` with Pillow
-  (flat vector-style illustration, DejaVu fonts).
+  (flat vector-style illustration, DejaVu fonts, hand-plotted world map).
 
 ## Run
 
@@ -71,3 +86,7 @@ python3 draw.py                                        # redraw entry.png
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=bh1grvtt&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
